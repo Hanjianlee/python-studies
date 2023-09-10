@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-studies"
+version = "0.1.0"
+description = "Studies on python features ~"
+authors = ["hanjianlee <hanjianlee7@gmail.com>"]
+readme = "README.md"
+
+[[tool.poetry.packages]]
+# Subproject 1
+include = "xlsx-generation"
+
+[tool.poetry.scripts]
+xlsx-generation = "xlsx-generation.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
