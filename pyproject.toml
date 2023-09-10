@@ -14,6 +14,8 @@ xlsx-generation = "xlsx-generation.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+openpyxl = "^3.1.2"
+memory-profiler = "^0.61.0"
 
 
 [build-system]
