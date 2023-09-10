@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xlsx-generation"
+version = "0.1.0"
+description = "Research on xlsx genreation"
+authors = ["hanjianlee <hanjianlee7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
