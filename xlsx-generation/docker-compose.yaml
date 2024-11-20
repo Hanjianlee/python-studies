@@ -1,0 +1,10 @@
+version: "3"
+services:
+  my-python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile # Path to your Dockerfile
+    ports:
+      - "8000:8000" # Replace with the desired port mappings if needed
+    volumes:
+      - .:/app # Mount the current directory into the container
